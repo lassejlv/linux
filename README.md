@@ -5,6 +5,13 @@ Fonts: Fira Code, JetBrains Mono
 
 To change the cursors, unzip the .gz and movie into /home/<user>/icons
 
+## Install Homebrew
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+## then follow the steps it outputs...
+```
+
 To add font to system: 
 
 # Copy fonts to system directory
@@ -19,9 +26,10 @@ sudo cp ./mono-fonts/*.ttf /usr/share/fonts/truetype/
 sudo fc-cache -fv
 ```
 
-## Install Node, Bun and Deno
+## Install Some Packages
 
 ```bash
+## Install nvm & node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
@@ -34,4 +42,7 @@ sudo apt update && sudo apt install unzip && curl -fsSL https://bun.sh/install |
 
 ## Install Deno
 curl -fsSL https://deno.land/install.sh | sh
+
+## Install some brew packages
+brew install go turso railway 
 ```
