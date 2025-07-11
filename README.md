@@ -8,12 +8,18 @@ To change the cursors, unzip the .gz and movie into /home/<user>/icons
 To add font to system: 
 
 # Copy fonts to system directory
+
+```bash
 sudo cp ./mono-fonts/*.ttf /usr/share/fonts/truetype/
+```
 
-# Update font cache
+## Update font cache
+
+```bash
 sudo fc-cache -fv
+```
 
-# Install Node, Bun and Deno
+## Install Node, Bun and Deno
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
