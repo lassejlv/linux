@@ -1,0 +1,33 @@
+/* To find this file you can use this cmd:  find /usr -name "workbench.desktop.main.css" 2>/dev/null */
+
+/* Custom styles - Linux compatible */
+.composite > .composite-bar-container {
+  justify-content: center !important;
+}
+
+.codicon-toolbar-more,
+.codicon-refresh {
+  display: none !important;
+}
+
+/* Hide titlebar elements - simplified selectors */
+.titlebar-center .action-item,
+.titlebar-right .action-item {
+  display: none !important;
+}
+
+/* Tab styling - remove .mac specific selectors */
+.tabs-container > div {
+  border-radius: 5px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.tabs-container {
+  box-shadow: none !important;
+}
+
+/* Test - make activity bar slightly darker to confirm CSS is working */
+.activitybar {
+  background-color: var(--vscode-activityBar-background) !important;
+  opacity: 0.9 !important;
+}
