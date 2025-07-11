@@ -26,6 +26,13 @@ sudo cp ./mono-fonts/*.ttf /usr/share/fonts/truetype/
 sudo fc-cache -fv
 ```
 
+## Flatpak
+To install Flatpak on Kubuntu, open Discover, go to Settings, install the Flatpak backend and restart Discover.
+
+```bash
+sudo apt install kde-config-flatpak
+```
+
 ## Install Some Packages
 
 ```bash
