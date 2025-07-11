@@ -1,0 +1,153 @@
+{
+  // 🎮 Editor Core Settings =============================
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.accessibilitySupport": "off",
+  "editor.stickyScroll.enabled": false,
+  "editor.guides.indentation": false,
+  "editor.parameterHints.enabled": false,
+  "typescript.experimental.useTsgo": true,
+
+  // 🎨 Editor Appearance =============================
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.fontWeight": "600",
+  "editor.lineHeight": 20,
+  "editor.fontSize": 11,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 2,
+  "editor.cursorStyle": "block",
+  "editor.lineNumbers": "on",
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": true,
+
+  // 🖥️ Editor UI Elements =============================
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 100,
+  "editor.minimap.renderCharacters": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "auto",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  // 🏗️ Workbench Layout =============================
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.statusBar.visible": false,
+  "workbench.tree.indent": 14,
+  "workbench.tree.stickyScrollMaxItemCount": 1,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.editor.openSideBySideDirection": "right",
+  "workbench.editor.closeEmptyGroups": true,
+
+  // 🪟 Window Settings =============================
+  "window.zoomLevel": 1.5,
+  "window.titleBarStyle": "custom",
+  "window.dialogStyle": "native",
+  "window.customTitleBarVisibility": "windowed",
+
+  // 📁 File Explorer =============================
+  "explorer.fileNesting.enabled": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // 🧭 Navigation =============================
+  "breadcrumbs.filePath": "off",
+
+  // 📊 Git =============================
+  "git.decorations.enabled": true,
+  "git.openRepositoryInParentFolders": "never",
+  "scm.diffDecorations": "none",
+
+  // 💻 Terminal =============================
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.allowedLinkSchemes": ["file", "http", "https", "mailto", "vscode", "vscode-insiders", "docker-desktop"],
+
+  // ✨ Prettier Configuration =============================
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 165,
+  "prettier.semi": false,
+
+  // ⚠️ Error Handling =============================
+  "errorLens.delay": 0,
+
+  // 🔗 File Associations and Custom Labels =============================
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname} - page.tsx",
+    "**/app/**/layout.tsx": "${dirname} - layout.tsx"
+  },
+
+  // 🚫 File Exclusions =============================
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.git/**": true,
+    "**/.next/**": true,
+    "**/build/**": true,
+    "**/coverage/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true
+  },
+  "files.exclude": {
+    "**/.astro": true,
+    "**/.DS_Store": true,
+    "**/.editorconfig": true,
+    "**/.git": true,
+    "**/.gitignore": true,
+    "**/.hg": true,
+    "**/.husky": true,
+    "dist-electron": false,
+    "dist": false,
+    "release": true,
+    "tsconfig.node.json": true,
+    "**/.lintstagedrc.mjs": true,
+    "**/.markdownlint.json": true,
+    "**/.markdownlintignore": true,
+    "**/.netlify": true,
+    "**/.next": true,
+    "**/.prettierignore": true,
+    "**/.svn": true,
+    "**/.vscode": true,
+    "**/cspell.json": true,
+    "**/CVS": true,
+    "**/data": true,
+    "**/next-env.d.ts": true,
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/postcss.config.cjs": true,
+    "**/postcss.config.js": true,
+    "**/postcss.config.mjs": true,
+    "**/prettier.config.js": true,
+    "**/Thumbs.db": true,
+    "node_modules": true
+  },
+
+  // 🧩 Extension-Specific Settings =============================
+  // "vscode_custom_css.imports": ["file:///home/lasse/Documents/dev/vscode-settings/helpers.css"],
+  // "custom-ui-style.external.imports": ["file:///home/lasse/Documents/dev/vscode-settings/helpers.css"],
+
+  "extensions.ignoreRecommendations": false,
+  "terminal.integrated.fontFamily": "JetBrains Mono NL",
+  "terminal.integrated.fontWeight": "500",
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.productIconTheme": "fluent-icons",
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.enabled": false,
+  "git.replaceTagsWhenPull": true,
+  "github.copilot.selectedCompletionModel": "",
+  "workbench.colorTheme": "Tokyo Night Horizon",
+  "window.confirmSaveUntitledWorkspace": false
+}
