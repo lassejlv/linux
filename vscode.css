@@ -1,0 +1,78 @@
+.composite > .composite-bar-container {
+  justify-content: center !important;
+}
+
+/* .titlebar-container, */
+.codicon-toolbar-more,
+.codicon-refresh {
+  display: none !important;
+}
+
+#workbench\.parts\.titlebar > div > div.titlebar-center > div > div > div > div > ul > li.action-item.command-center-center,
+#workbench\.parts\.titlebar > div > div.titlebar-center > div > div > div > div > ul > li.action-item.monaco-dropdown-with-primary > div.action-container.menu-entry,
+#workbench\.parts\.titlebar
+  > div
+  > div.titlebar-center
+  > div
+  > div
+  > div
+  > div
+  > ul
+  > li.action-item.monaco-dropdown-with-primary
+  > div.dropdown-action-container
+  > div
+  > div
+  > a,
+#workbench\.parts\.titlebar > div > div.titlebar-center > div > div > div > div > ul > li:nth-child(1) > a,
+#workbench\.parts\.titlebar > div > div.titlebar-center > div > div > div > div > ul > li:nth-child(1) > a,
+#workbench\.parts\.titlebar > div > div.titlebar-right > div > div > div > ul > li:nth-child(1) > a,
+#workbench\.parts\.titlebar > div > div.titlebar-center > div > div > div > div > ul > li:nth-child(2) > a,
+#workbench\.parts\.titlebar > div > div.titlebar-right > div > div > div > ul > li:nth-child(2) > a,
+#workbench\.parts\.titlebar > div > div.titlebar-right > div > div > div > ul > li:nth-child(3) > a,
+#workbench\.parts\.titlebar > div > div.titlebar-right > div > div > div > ul > li:nth-child(4) > a {
+  display: none;
+}
+
+/* 
+.titlebar-container {
+  background-color: #ffff;
+} */
+
+#workbench\.parts\.editor
+  > div.content
+  > div
+  > div
+  > div
+  > div
+  > div.monaco-scrollable-element.mac
+  > div.split-view-container
+  > div
+  > div
+  > div.title.tabs.show-file-icons
+  > div.tabs-and-actions-container
+  > div.monaco-scrollable-element.mac
+  > div.tabs-container
+  > div {
+  border-radius: 5px !important;
+  transition: all 0.2s ease-in-out;
+}
+
+#workbench\.parts\.editor
+  > div.content
+  > div
+  > div
+  > div
+  > div
+  > div.monaco-scrollable-element.mac
+  > div.split-view-container
+  > div
+  > div
+  > div.title.tabs.show-file-icons
+  > div.tabs-and-actions-container
+  > div.monaco-scrollable-element.mac
+  > div.tabs-container {
+  box-shadow: none !important;
+}
+#workbench\.parts\.panel > div.composite.title.has-composite-bar > div.global-actions > div > div > ul > li:nth-child(1) > a {
+  display: none !important;
+}
